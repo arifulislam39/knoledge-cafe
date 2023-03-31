@@ -1,6 +1,9 @@
 import React from 'react';
+import './Cart.css';
+import ReadTime from '../ReadTime/ReadTime';
 
 const Cart = (props) => {
+    //console.log(props)
     const cart = props.cart;
     // console.log(cart)
     const listItems = cart.map((blogInfo) =>
@@ -8,12 +11,16 @@ const Cart = (props) => {
     );
 
     return (
-        <div>
-            <h3>Spent time on read : </h3>
-            <h3>Bookmarked Blogs: {cart.length}</h3>
-            <p>{listItems}</p>
-            
+        <div className='bookmark-cart'>
+            <div>
+                <h3>Bookmarked Blogs: {cart.length}</h3>
+                <p>{listItems}</p>
+            </div>
+
+
+
         </div>
+
     );
 };
 

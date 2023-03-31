@@ -1,0 +1,17 @@
+.bookmark-cart {
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+}
+
+
+.bookmark-cart p, h3{
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Exo 2';
+    font-weight: 600;
+    font-size: 18px;
+}
+.bookmark-cart p{
+    padding: 20px;
+}
