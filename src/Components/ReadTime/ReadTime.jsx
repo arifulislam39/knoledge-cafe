@@ -1,19 +1,17 @@
 import React from 'react';
 import './ReadTime.css';
 
-const ReadTime = (props) => {
-    //console.log(props)
+const ReadTime = ({ store }) => {
+    // console.log({store})
 
-    const store = props.store;
-
-    const bistItems = store.map((alogInfo) =>
-        <p>{alogInfo.read_time}</p>
-    );
+    let total = 0;
+    for(const shomy of store){
+        total =total +shomy.read_time;
+    }
 
     return (
         <div>
-            <h3>hello</h3>
-            <p>{bistItems}</p>
+            <h3>Spent time on read : {total}</h3>
         </div>
     );
 };

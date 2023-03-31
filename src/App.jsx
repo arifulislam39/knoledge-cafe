@@ -7,6 +7,7 @@ import Display from './Components/Display/Display';
 import Cart from './Components/Cart/Cart'
 import Blog from './Components/Blog/Blog'
 import ReadTime from './Components/ReadTime/ReadTime'
+import FAQ from './Components/FAQ/FAQ'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <Display>
 
       </Display>
+      <FAQ></FAQ>
     </div>
   )
 }
