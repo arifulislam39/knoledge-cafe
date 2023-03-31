@@ -2,9 +2,15 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-top: 35px;
+    width: 1240px;
 }
 
 .blogs-container{
     margin-top: 35px;
     margin-right: 25px;
+    width: 840px;
+}
+
+.cart-container{
+    width: 400px;
 }

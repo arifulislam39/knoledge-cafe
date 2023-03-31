@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
+import Cart from '../Cart/Cart';
 import './Diplay.css'
 
 const Display = () => {
@@ -33,8 +34,7 @@ const Display = () => {
                 }
             </div>
             <div className='cart-container'>
-                <h3>bookmarked: {cart.length}</h3>
-                <p>{cart.blog_title}</p>
+                <Cart cart={cart}></Cart>
 
             </div>
 
