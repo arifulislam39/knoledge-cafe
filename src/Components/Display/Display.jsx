@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Blog from '../Blog/Blog';
 import './Diplay.css'
 
 const Display = () => {
@@ -12,7 +13,15 @@ useEffect(()=>{
 
     return (
         <div className='display-container'>
-            <div className='blogs-container'><h3>blogs coming here: {blogs.length}</h3></div>
+            <div className='blogs-container'>
+                {
+                    blogs.map(blog => <Blog
+                    key={blog.id}
+                    blog={blog}>
+
+                    </Blog>)
+                }
+            </div>
             <div className='cart-container'>
                 <h3>bookmarked</h3>
 
