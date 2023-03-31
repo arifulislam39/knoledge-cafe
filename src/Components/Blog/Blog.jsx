@@ -1,9 +1,14 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import './Blog.css'
 
 const Blog = (props) => {
+    //console.log(props)
     const { blog_cover_img, blog_title, author_name, author_img, publish_in, read_time
     } = props.blog;
+    const handleAddToCart = props.handleAddToCart;
+
     return (
         <div className='blog'>
             <img id='cover-img' src={blog_cover_img
@@ -20,7 +25,7 @@ const Blog = (props) => {
                         </div>
 
                     </div>
-                    <p>{read_time} min read</p>
+                    <p>{read_time} min read <FontAwesomeIcon onClick={()=> handleAddToCart(props.blog)} icon={faBookmark} /></p>
 
                 </div>
             </div>
