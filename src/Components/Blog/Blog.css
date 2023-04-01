@@ -44,3 +44,13 @@
     color: #6047EC;
 
 }
+
+@media only screen and (max-width: 688px){
+
+    #cover-img{
+        width: 100%;
+    }
+    .blog{
+        width: 100%;
+    }
+}
