@@ -10,8 +10,8 @@ const FAQ = () => {
 
             <hr />
             <h3>2.Props vs state:</h3>
-            <p>state: To store the data your current page needs in your controller-view.</p>
-            <p>props: To pass data & event handlers down to your child components.</p>
+            <p>state: To store the data on the current page needs in controller-view.</p>
+            <p>props: To pass data & event handlers down to child components.</p>
 
             <hr />
             <h3>3.Purpose of useEffect other than fetching data.</h3>
