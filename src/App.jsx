@@ -8,6 +8,8 @@ import Cart from './Components/Cart/Cart'
 import Blog from './Components/Blog/Blog'
 import ReadTime from './Components/ReadTime/ReadTime'
 import FAQ from './Components/FAQ/FAQ'
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   //const [count, setCount] = useState(0)

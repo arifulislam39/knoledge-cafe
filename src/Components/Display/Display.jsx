@@ -3,11 +3,13 @@ import Blog from '../Blog/Blog';
 import Cart from '../Cart/Cart';
 import './Diplay.css';
 import ReadTime from '../ReadTime/ReadTime';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Display = () => {
     const [blogs, setBlogs] = useState([]);
     const [cart, setCart] = useState([]);
-    const [store, setStore] =useState([]);
+    const [store, setStore] = useState([]);
 
     useEffect(() => {
         fetch('blogs.json')
@@ -16,9 +18,29 @@ const Display = () => {
     }, []);
 
 
-    const handleAddToCart = (blog) => {
-        const newCart = [...cart, blog];
-        setCart(newCart);
+    // const handleAddToCart = (blog) => {
+    //     const newCart = [...cart, blog];
+    //     setCart(newCart);
+
+
+
+        const handleAddToCart=(blog)=>{
+            if(cart.find(a=>a.id===blog.id)){
+                toast('u cant select');
+                // const newCart=[...cart,blog]
+                // setCart(newCart);
+                
+            }
+            else{
+                const newCart=[...cart,blog]
+                setCart(newCart);
+                
+            }
+
+
+
+
+
     }
     const handleReadTime = (blog) => {
         const newStore = [...store, blog];
@@ -36,21 +58,23 @@ const Display = () => {
 
                         handleReadTime={handleReadTime}
 
-                       >
+                    >
 
                     </Blog>)
-                    
-                }
-            </div>
-            
-            
-            <div>
-            <div className='cart-container'>
-                <ReadTime store={store}></ReadTime>
-                <Cart cart={cart}></Cart>
-               
 
+                }
+               <ToastContainer />
             </div>
+            
+
+
+            <div>
+                <div className='cart-container'>
+                    <ReadTime store={store}></ReadTime>
+                    <Cart cart={cart}></Cart>
+
+
+                </div>
             </div>
 
         </div>
