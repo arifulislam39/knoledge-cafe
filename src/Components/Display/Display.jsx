@@ -26,7 +26,7 @@ const Display = () => {
 
         const handleAddToCart=(blog)=>{
             if(cart.find(a=>a.id===blog.id)){
-                toast('u cant select');
+                toast('You Have Already Bookmarked This Blog');
             }
             else{
                 const newCart=[...cart,blog]

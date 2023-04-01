@@ -36,7 +36,8 @@ const Blog = (props) => {
 
             <a onClick={()=>handleReadTime(props.blog)} className='btn-mark' >Mark as read</a>
 
-            {/* <ReadTime></ReadTime> */}
+            <hr />
+
 
 
         </div>

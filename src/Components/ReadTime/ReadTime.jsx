@@ -10,7 +10,7 @@ const ReadTime = ({ store }) => {
     }
 
     return (
-        <div>
+        <div className='spent-time'>
             <h3>Spent time on read : {total}</h3>
         </div>
     );

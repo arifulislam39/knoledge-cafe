@@ -1,0 +1,8 @@
+.spent-time {
+    box-sizing: border-box;
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    padding: 20px;
+    color: #6047EC;;
+}

@@ -1,17 +1,29 @@
 .bookmark-cart {
     background: rgba(17, 17, 17, 0.05);
     border-radius: 8px;
+    border: 1px solid #6047EC;
+    margin-top: 40px;
+
+
 }
 
 
-.bookmark-cart p, h3{
-    padding: 10px;
+.bookmark-cart p {
+    /* box-sizing: border-box; */
+    border: 1px solid #220297;
+    margin: 20px;
     background: #FFFFFF;
     border-radius: 8px;
     font-family: 'Exo 2';
     font-weight: 600;
     font-size: 18px;
+    text-align: center;
 }
-.bookmark-cart p{
+
+.bookmark-cart h3 {
     padding: 20px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
 }

@@ -13,6 +13,8 @@
 
 .cart-container {
     width: 400px;
+    position: sticky;
+    top: 0;
 
 }
 
