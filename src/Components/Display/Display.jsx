@@ -27,9 +27,6 @@ const Display = () => {
         const handleAddToCart=(blog)=>{
             if(cart.find(a=>a.id===blog.id)){
                 toast('u cant select');
-                // const newCart=[...cart,blog]
-                // setCart(newCart);
-                
             }
             else{
                 const newCart=[...cart,blog]

@@ -6,7 +6,7 @@ import ReadTime from '../ReadTime/ReadTime';
 
 const Blog = (props) => {
     //console.log(props)
-    const { blog_cover_img, blog_title, author_name, author_img, publish_in, read_time
+    const { tag,blog_cover_img, blog_title, author_name, author_img, publish_in, read_time
     } = props.blog;
     const handleAddToCart = props.handleAddToCart;
     const handleReadTime = props.handleReadTime;
@@ -31,6 +31,8 @@ const Blog = (props) => {
                 </div>
             </div>
             <h2 className='blog-title'>{blog_title}</h2>
+
+            <p>{tag}</p>
 
             <a onClick={()=>handleReadTime(props.blog)} className='btn-mark' >Mark as read</a>
 

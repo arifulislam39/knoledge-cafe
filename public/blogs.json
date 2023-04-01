@@ -6,7 +6,8 @@
         "author_img": "https://media.istockphoto.com/id/1338134336/photo/headshot-portrait-african-30s-man-smile-look-at-camera.jpg?s=612x612&w=is&k=20&c=Qq7b7kkCYor4mHJow_7CNIwq5CUlXpv56frkhc78tk4=",
         "publish_in": "March 14 (4 days ago)",
         "blog_cover_img":"https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=900&t=st=1680243291~exp=1680243891~hmac=952bc0c94480069b7270acd518720d27a73eda388a80348bb91e346a0f25cb12",
-        "read_time":15
+        "read_time":15,
+        "tag":"#programming  #beginners"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "author_img": "https://media.istockphoto.com/id/1388253782/photo/positive-successful-millennial-business-professional-man-head-shot-portrait.jpg?s=612x612&w=is&k=20&c=acQ7V92QEYwAs6ojhpTSCRR3m8eCePNiJihHcu4jjoU=",
         "publish_in": "March 14 (4 days ago)",
         "blog_cover_img":"https://as2.ftcdn.net/v2/jpg/04/63/37/51/1000_F_463375173_vBKRkUbVoCuS9lpUmhdfCc13pprPr148.jpg",
-        "read_time":10
+        "read_time":10,
+        "tag":"#programming  #beginners"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "author_img": "https://media.istockphoto.com/id/500797373/photo/portrait-of-confident-businessman-in-urban-window.jpg?s=612x612&w=is&k=20&c=krx-IYK232KDBNzvedAmyqSCrPwxt5IquERIPhv1-Cc=",
         "publish_in": "March 14 (4 days ago)",
         "blog_cover_img": "https://as2.ftcdn.net/v2/jpg/03/45/47/23/1000_F_345472341_kLVrcbKzrtBgkrkKg7G4UILAf8TnJBLt.jpg",
-        "read_time":9
+        "read_time":9,
+        "tag":"#programming  #beginners"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "author_img": "https://media.istockphoto.com/id/154346580/photo/smiling-man-at-office.jpg?s=612x612&w=is&k=20&c=NQPMLzPk9Unt_1D7MsrIbFk6yjeuczmuhU7dt-l-iZQ=",
         "publish_in": "March 14 (4 days ago)",
         "blog_cover_img": "https://img.freepik.com/free-vector/digital-coding-background-with-numbers-zero-one_1017-30363.jpg?w=1060&t=st=1680243645~exp=1680244245~hmac=a00c5be14a6e9e4187a068b6dbc8f8b2200956a40ac1e4ab3838143a0aca053e",
-        "read_time":15
+        "read_time":15,
+        "tag":"#programming  #beginners"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "author_img": "https://media.istockphoto.com/id/1406197730/photo/portrait-of-a-young-handsome-indian-man.jpg?s=1024x1024&w=is&k=20&c=VruKKTu4jBF2xPEEQUMWwd4bwJPysSsqLuZ7h1OyD8M=",
         "publish_in": "March 14 (4 days ago)",
         "blog_cover_img": "https://as1.ftcdn.net/v2/jpg/05/76/59/56/1000_F_576595621_y6FreJmaAd1aFdUFxFqGkl079YJgx2o6.jpg",
-        "read_time":12
+        "read_time":12,
+        "tag":"#programming  #beginners"
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "author_img": "https://media.istockphoto.com/id/470321628/photo/im-meeting-someone.jpg?s=1024x1024&w=is&k=20&c=1-2JNCfexI9jQCp99A5XovNkUvSNFErZWT1klGL_qaM=",
         "publish_in": "March 14 (4 days ago)",
         "blog_cover_img": "https://as1.ftcdn.net/v2/jpg/05/43/59/56/1000_F_543595619_nLtAYSn7NU95esu6RmrOtpoNYQPxV2ZU.jpg",
-        "read_time":10
+        "read_time":10,
+        "tag":"#programming  #beginners"
     }
 
 ]
