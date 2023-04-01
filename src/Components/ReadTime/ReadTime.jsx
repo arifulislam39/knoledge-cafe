@@ -5,8 +5,8 @@ const ReadTime = ({ store }) => {
     // console.log({store})
 
     let total = 0;
-    for(const shomy of store){
-        total =total +shomy.read_time;
+    for (const time of store) {
+        total = total + time.read_time;
     }
 
     return (

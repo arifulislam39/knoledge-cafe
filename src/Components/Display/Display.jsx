@@ -18,21 +18,17 @@ const Display = () => {
     }, []);
 
 
-    // const handleAddToCart = (blog) => {
-    //     const newCart = [...cart, blog];
-    //     setCart(newCart);
 
 
+    const handleAddToCart = (blog) => {
+        if (cart.find(a => a.id === blog.id)) {
+            toast('You Have Already Bookmarked This Blog');
+        }
+        else {
+            const newCart = [...cart, blog]
+            setCart(newCart);
 
-        const handleAddToCart=(blog)=>{
-            if(cart.find(a=>a.id===blog.id)){
-                toast('You Have Already Bookmarked This Blog');
-            }
-            else{
-                const newCart=[...cart,blog]
-                setCart(newCart);
-                
-            }
+        }
 
 
 
@@ -60,9 +56,9 @@ const Display = () => {
                     </Blog>)
 
                 }
-               <ToastContainer />
+                <ToastContainer />
             </div>
-            
+
 
 
             <div>
