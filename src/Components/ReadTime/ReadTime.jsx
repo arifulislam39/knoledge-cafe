@@ -11,7 +11,7 @@ const ReadTime = ({ store }) => {
 
     return (
         <div className='spent-time'>
-            <h3>Spent time on read : {total}</h3>
+            <h3>Spent time on read :: {total}</h3>
         </div>
     );
 };
